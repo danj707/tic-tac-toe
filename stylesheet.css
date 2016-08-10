@@ -1,0 +1,73 @@
+/*
+* {
+    border: 1px solid red;
+}
+*/
+
+h2 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 48px;
+    background: lightgray;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+    width: 25%;
+    margin: 0;
+}
+
+.row {
+    width: 66%;
+    margin: auto;
+}
+
+.ul {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.uu {
+    border-bottom: 2px solid black;
+}
+
+.ur {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.ml {
+    border-right: 2px solid black;
+}
+
+.mm {}
+
+.mr {
+    border-left: 2px solid black;
+}
+
+.bl {
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.bm {
+    border-top: 2px solid black;
+}
+
+.br {
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
