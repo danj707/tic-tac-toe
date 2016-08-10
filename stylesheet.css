@@ -21,16 +21,36 @@ p {
     text-align: center;
 }
 
+.off {
+    display: none;
+}
+
 div {
     display: inline-block;
     text-align: center;
-    padding: 25px;
-    width: 25%;
+    width: 160px;
     margin: 0;
+    height: 138px;
+    padding: 10px;
+}
+
+.navimg {
+    height: 3%;
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 130px;
+    width: 130px;
+    padding: 10px;
 }
 
 .row {
-    width: 66%;
+    width: 50%;
+    height: 160px;
     margin: auto;
 }
 

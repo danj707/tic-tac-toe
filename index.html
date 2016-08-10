@@ -3,7 +3,6 @@
 <head>
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
 </head>
 
@@ -11,24 +10,30 @@
 
     <h2>Tic-Tac-Toe</h2>
     <p>Shall we play a game?</p>
-    <p>Instructions: Click on a tic-tac-toe box, choosing either a <i class="fa fa-circle-o" aria-hidden="true"></i> or an <i class="fa fa-times" aria-hidden="true"></i>. Good luck!</p>
+    <p>Instructions: Click on a tic-tac-toe box, choosing either an
+        <img class="navimg" src="X.png"> or an <img class="navimg" src="O.png">. Good luck!
 
-    <section class="row">
-        <div class="ul"><i class="fa fa-times" aria-hidden="true"></i></div>
-        <div class="uu"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
-        <div class="ur"><i class="fa fa-times" aria-hidden="true"></i></div>
-    </section>
+        <section class="row">
+            <div id="ul" class="ul"></div>
+            <div id="uu" class="uu"></div>
+            <div id="ur" class="ur"></div>
+        </section>
 
-    <section class="row">
-        <div class="ml"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
-        <div class="mm"><i class="fa fa-times" aria-hidden="true"></i></div>
-        <div class="mr"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
-    </section>
+        <section class="row">
+            <div id="ml" class="ml"></div>
+            <div id="mm" class="mm"></div>
+            <div id="mr" class="mr"></div>
+        </section>
 
-    <section class="row">
-        <div class="bl"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
-        <div class="bm"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
-        <div class="br"><i class="fa fa-times" aria-hidden="true"></i></div>
-    </section>
+        <section class="row">
+            <div id="bl" class="bl"></div>
+            <div id="bm" class="bm"></div>
+            <div id="br" class="br"></div>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript " src="app.js"></script>
 
 </body>
+
+</html>
